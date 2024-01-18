@@ -1,0 +1,12 @@
+{
+  "name": "fireWork",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/k1923456/fireWork.git",
+  "author": "santai87 <k1923456@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/spl-token": "^0.3.11",
+    "@solana/web3.js": "^1.89.1"
+  }
+}
