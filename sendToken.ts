@@ -8,7 +8,7 @@ import { Connection, Keypair, ParsedAccountData, PublicKey, sendAndConfirmTransa
 // Read environment variables
 const secretString: string = process.env.SECRET || (() => { throw new Error("SECRET not found in .env file"); })();
 const receiversJsonFilename: string = process.env.RECEIVERS_JSON_FILENAME || (() => { throw new Error("RECEIVERS_JSON_FILENAME not found in .env file"); })()
-const connectionURL: string = process.env.connection_URL || (() => { throw new Error("connection_URL not found in .env file"); })()
+const connectionURL: string = process.env.SOLANA_CONNECTION_URL || (() => { throw new Error("SOLANA_CONNECTION_URL not found in .env file"); })()
 const tokenAddress: string = process.env.TOKEN_ADDRESS || (() => { throw new Error("TOKEN_ADDRESS not found in .env file"); })();
 const transferAmount: number = process.env.TRANSFER_AMOUNT ? parseInt(process.env.TRANSFER_AMOUNT, 10) : (() => { throw new Error("transferAmount not found in .env file"); })();
 
