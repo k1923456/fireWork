@@ -1,5 +1,7 @@
 # Send Token Script
 
+AAA
+
 ## Environment Variables
 ```
 # solana account secret that used to do mint and transfer
